@@ -21,7 +21,7 @@ tasks.named<Jar>("jar") {
     manifest {
         attributes(
             mapOf(
-                "Premain-Class" to "zephyr.agent.bytebuddy.PreMain",
+                "Premain-Class" to "zephyr.agent.bytebuddy.Agent",
                 "Can-Redefine-Classes" to true,
                 "Can-Retransform-Classes" to true
             )
