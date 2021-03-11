@@ -1,4 +1,4 @@
-package zephyr.agent;
+package zephyr.agent.asm;
 
 import org.objectweb.asm.*;
 import org.objectweb.asm.commons.AdviceAdapter;
